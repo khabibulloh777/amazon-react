@@ -1,0 +1,26 @@
+.bottomheader{
+    width: 100%;
+    height: 40px;
+    background-color: var(--secondary-color);
+    color: var(--primary-light);
+}
+
+.bottomheader__collection{
+    height: 40px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.bottomheader__item{
+    list-style-type: none;
+    margin: 0px 20px;
+    font-weight: 600;
+    padding: 5px;
+    border: var(--primary-borderTransparent);
+    cursor: pointer;
+}
+
+.bottomheader__item:hover{
+    border: var(--primary-borderWhite);
+}

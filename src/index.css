@@ -1,3 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --primary-light: #ffffff;
+  --primary-dark: #131921;
+  --header-height: 60px;
+  --header-innerHeight: 50px;
+  --primary-borderTransparent: 1px solid transparent;
+  --primary-borderWhite: 1px solid var(--primary-light);
+  --amazon-color: #FEBD68;
+  --primary-boxShadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  --secondary-color: #242F3E;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
